@@ -1,0 +1,28 @@
+.jumbotron {
+    background-image: url("../images/nyt-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -10px;
+    opacity: 0.7; }
+    .jumbotron h1 {
+      color: black; }
+  
+  .articles {
+    margin-top: 10px;
+    border-style: double; }
+    .articles button[type="save"] {
+      box-shadow: 1px 1px 11px grey;
+      font-size: 15px;
+      font-weight: 400;
+      margin-top: 10px;
+      cursor: pointer;
+      border-color: blue;
+      color: blue;
+      min-width: 100%; }
+    .articles .btn-outline-warning:hover {
+      color: white;
+      background-color: blue; }
+    .articles .btn-outline-warning:visited {
+      color: white;
+      background-color: yellow; }
+  
